@@ -5,6 +5,7 @@ const hbs = require('hbs');
 const forecast = require('./request/forecast.js');
 const geolocation = require('./request/geocode.js');
 
+const this_ = 'this and that';
 
 // configs
 const app = express();
