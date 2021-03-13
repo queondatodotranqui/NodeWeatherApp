@@ -82,5 +82,5 @@ app.get('*', (req, res)=>{
 })
 
 app.listen(3000, ()=>{
-    console.log('Server up in port 3000');
+    console.log('Server up in port: 3000');
 })
