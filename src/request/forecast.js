@@ -13,7 +13,7 @@ const forecast = ({ latitude , longitude}, callback) =>{
         if(mistake){
             callback('Unable to connect to service', null);
         } else if(error){
-            callback('Location not found', null);
+            callback('Location not found. Please try again!', null);
         } else {
             let { name , country } = location;
             callback(null, {
