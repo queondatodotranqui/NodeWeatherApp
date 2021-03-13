@@ -1,0 +1,35 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 80vw;
+    left: 10vw;
+}
+
+.contenido{
+    margin-top: 72px;
+    max-height: 80vh;
+    overflow: auto;
+}
+
+.item{
+    margin-top: 0vh;
+}
+
+.details{
+    border: 2px solid white;
+    margin-top: 5vh;
+}
+
+form{
+    justify-content: center;
+}
+
+form input{
+    min-width: 60vw;
+}
+
+@media all and (min-width: 700px){
+    form input{
+        min-width: 40vw;
+    }
+}
